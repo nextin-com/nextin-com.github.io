@@ -187,6 +187,7 @@ padding: 0 6px;
 @media only screen and (max-width:480px) {
 .bottom1{
     display: block;
+    margin-block-start: 104px;
 }
 .profile img {
     max-width: 222px;
@@ -197,5 +198,36 @@ padding: 0 6px;
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     padding-top: 27px;
+}
+.details img {
+    max-width: 200px;
+    height: auto;
+    margin-inline-start: 18px;
+}
+.logo img {
+    max-width: 150px;
+    height: auto;
+    margin-inline-start: 0;
+    margin-block-start: 29px;
+}
+.work {
+    width: 246px;
+}
+.text {
+    margin-block-start: 40px;
+    margin-block-end: 40px;
+    width: 240px;
+}
+.search-box {
+    position: fixed;
+    top: 7%;
+    right: 10%;
+    height: 40px;
+}
+.deed.tal {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
 }
 }
