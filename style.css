@@ -89,7 +89,7 @@ article {
     height: auto;
 }
 .profile {
-    margin-block-start: 33px;
+    margin-block-start: 40px;
 }
 .menu-1 {
     position: fixed;
@@ -149,8 +149,8 @@ a.social-c:hover {
 @media only screen and (max-width:480px) {
     .search-box {
         position: absolute;
-        top: 8px;
-        right: 2%;
+        top: 10px;
+        right: 4%;
         background-color: #000;
         border-radius: 25px;
         height: 40px;
@@ -163,7 +163,7 @@ a.social-c:hover {
         width: 75px;
         display: flex;
         list-style: none;
-        margin-block-start: 300px;
+        margin-block-start: 280px;
         transform: rotate(270deg);
     }
     .cc {
@@ -182,7 +182,7 @@ a.social-c:hover {
         height: 100%;
     }
     .profile img {
-        max-width: 250px;
+        max-width: 230px;
         height: auto;
         margin-inline-start: 20px;
     }
@@ -194,7 +194,7 @@ a.social-c:hover {
     a.social-c {
         margin-inline-start: 26px;
         display: block;
-        line-height: 50px;
+        line-height: 60px;
         color: white;
         opacity: 0.8;
     }
