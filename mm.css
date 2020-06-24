@@ -183,7 +183,7 @@ a.social-c:hover {
     .profile img {
         max-width: 250px;
         height: auto;
-        margin-inline-start: 50px;
+        margin-inline-start: 20px;
     }
     .news {
         padding-inline-start: 22px;
