@@ -203,3 +203,69 @@ a.social-c:hover {
 }
 
 }
+/* home css */
+header{
+    max-width: 100%;
+    height: 640px;
+    animation: animate 16s ease-in-out infinite;
+    background-size: cover;
+}
+.details{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+}
+.details h1{
+    font-size: 4em;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.details p {
+    color: green;
+    font-size: 4em;
+    font-family: 'Oswald', sans-serif;
+    margin-inline-start: 2px;
+    margin-inline-end: 11px;
+    transform: rotate(-45deg);
+    margin-block-start: 14px;
+}
+@keyframes animate{
+    0%,100%{
+        background-image: url(../nextin-com.github.io/images/home.png);
+    }
+    50%{
+        background-image: url(../nextin-com.github.io/images/download.jpg);
+    }
+}
+.search-box {
+    position: fixed;
+    top: 3%;
+    right: 2%;
+    height: 40px;
+}
+.search-box:hover > .search-txt{
+width: 160px;
+padding: 0 6px;
+}
+.search-btn {
+    color: green;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt {
+    font-size: 14px;
+    border: none;
+    background: green;
+    outline: none;
+    transition: 0.4s;
+    padding: 0;
+    color: black;
+    line-height: 12px;
+    width: 0px;
+}
+
+
