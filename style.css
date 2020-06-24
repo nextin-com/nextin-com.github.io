@@ -94,13 +94,13 @@ article {
 .menu-1 {
     position: fixed;
     background-color: #000;
-    height: 92%;
     margin-inline-start: 0;
+    height: 100%;
 }
 .two {
     margin-inline-start: 230px;
     display: flex;
-    padding-bottom: 115px;
+    height: 100vh;
 }
 .menu-1 ul {
     width: 230px;
@@ -124,7 +124,7 @@ article {
 }
 .footer {
     position: absolute;
-    bottom: 12px;
+    bottom: 70px;
 }
 .cc h5{
     font-size: 11px;
@@ -179,6 +179,7 @@ a.social-c:hover {
     .two {
         margin-inline-start: 75px;
         display: block;
+        height: 100%;
     }
     .profile img {
         max-width: 250px;
@@ -193,7 +194,7 @@ a.social-c:hover {
     a.social-c {
         margin-inline-start: 26px;
         display: block;
-        line-height: 70px;
+        line-height: 50px;
         color: white;
         opacity: 0.8;
     }
